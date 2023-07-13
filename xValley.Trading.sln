@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xValley.Trading.ML.Models",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Indicators", "xValley.Trading.Indicators\Indicators.csproj", "{53B09875-2A79-4247-9653-58B37096A13D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xValley.Trading.Common", "xValley.Trading.Common\xValley.Trading.Common.csproj", "{E011788C-DAEC-4DB7-8E80-4A6B3FBED02E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xValley.Trading.DataProcessing", "xValley.Trading.DataProcessing\xValley.Trading.DataProcessing.csproj", "{7871BD90-EDF7-4EAD-83AC-6A55D5142E2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xValley.Trading.WebUI", "xValley.Trading.WebUI\xValley.Trading.WebUI.csproj", "{B64A4ABC-F643-4541-BEFF-E9C350B7577B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +27,18 @@ Global
 		{53B09875-2A79-4247-9653-58B37096A13D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53B09875-2A79-4247-9653-58B37096A13D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53B09875-2A79-4247-9653-58B37096A13D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E011788C-DAEC-4DB7-8E80-4A6B3FBED02E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E011788C-DAEC-4DB7-8E80-4A6B3FBED02E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E011788C-DAEC-4DB7-8E80-4A6B3FBED02E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E011788C-DAEC-4DB7-8E80-4A6B3FBED02E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7871BD90-EDF7-4EAD-83AC-6A55D5142E2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7871BD90-EDF7-4EAD-83AC-6A55D5142E2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7871BD90-EDF7-4EAD-83AC-6A55D5142E2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7871BD90-EDF7-4EAD-83AC-6A55D5142E2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B64A4ABC-F643-4541-BEFF-E9C350B7577B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B64A4ABC-F643-4541-BEFF-E9C350B7577B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B64A4ABC-F643-4541-BEFF-E9C350B7577B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B64A4ABC-F643-4541-BEFF-E9C350B7577B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
