@@ -19,4 +19,16 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
+  <ItemGroup Label="EURUSD">
+    <None Include="EURUSD.consumption.cs">
+      <DependentUpon>EURUSD.mbconfig</DependentUpon>
+    </None>
+    <None Include="EURUSD.training.cs">
+      <DependentUpon>EURUSD.mbconfig</DependentUpon>
+    </None>
+    <None Include="EURUSD.zip">
+      <DependentUpon>EURUSD.mbconfig</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
 </Project>
