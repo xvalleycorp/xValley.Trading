@@ -1,0 +1,14 @@
+﻿@page "/forecasting"
+<PageTitle>Forecasting</PageTitle>
+
+<h3>Forecasting</h3>
+<h4>Price: @price</h4>
+<button class="btn btn-primary" @onclick="RandomForecast">Randomize</button>
+
+@code {
+    private float price = 0.0f;
+    private void RandomForecast()
+    {
+        price = new Random().Next(0, 100);
+    }
+}

@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xValley.Trading.ML.Models", "xValley.Trading.ML.Models\xValley.Trading.ML.Models.csproj", "{30A6E2F5-CBA0-4813-8E4B-55EC551A9105}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "xValley.Trading.ML.Models", "xValley.Trading.ML.Models\xValley.Trading.ML.Models.csproj", "{30A6E2F5-CBA0-4813-8E4B-55EC551A9105}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Indicators", "xValley.Trading.Indicators\Indicators.csproj", "{53B09875-2A79-4247-9653-58B37096A13D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xValley.Trading.Common", "xValley.Trading.Common\xValley.Trading.Common.csproj", "{E011788C-DAEC-4DB7-8E80-4A6B3FBED02E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "xValley.Trading.Common", "xValley.Trading.Common\xValley.Trading.Common.csproj", "{E011788C-DAEC-4DB7-8E80-4A6B3FBED02E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xValley.Trading.DataProcessing", "xValley.Trading.DataProcessing\xValley.Trading.DataProcessing.csproj", "{7871BD90-EDF7-4EAD-83AC-6A55D5142E2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "xValley.Trading.DataProcessing", "xValley.Trading.DataProcessing\xValley.Trading.DataProcessing.csproj", "{7871BD90-EDF7-4EAD-83AC-6A55D5142E2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xValley.Trading.WebUI", "xValley.Trading.WebUI\xValley.Trading.WebUI.csproj", "{B64A4ABC-F643-4541-BEFF-E9C350B7577B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "xValley.Trading.WebUI", "xValley.Trading.WebUI\xValley.Trading.WebUI.csproj", "{B64A4ABC-F643-4541-BEFF-E9C350B7577B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

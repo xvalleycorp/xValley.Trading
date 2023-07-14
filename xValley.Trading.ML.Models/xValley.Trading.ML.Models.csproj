@@ -1,9 +1,22 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ML.TimeSeries" Version="1.7.1" />
+  </ItemGroup>
+  <ItemGroup Label="GBPUSDDaily">
+    <None Include="GBPUSDDaily.consumption.cs">
+      <DependentUpon>GBPUSDDaily.mbconfig</DependentUpon>
+    </None>
+    <None Include="GBPUSDDaily.training.cs">
+      <DependentUpon>GBPUSDDaily.mbconfig</DependentUpon>
+    </None>
+    <None Include="GBPUSDDaily.zip">
+      <DependentUpon>GBPUSDDaily.mbconfig</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
 </Project>
