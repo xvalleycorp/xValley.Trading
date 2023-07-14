@@ -31,4 +31,28 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
+  <ItemGroup Label="BTCUSD">
+    <None Include="BTCUSD.consumption.cs">
+      <DependentUpon>BTCUSD.mbconfig</DependentUpon>
+    </None>
+    <None Include="BTCUSD.training.cs">
+      <DependentUpon>BTCUSD.mbconfig</DependentUpon>
+    </None>
+    <None Include="BTCUSD.zip">
+      <DependentUpon>BTCUSD.mbconfig</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup Label="XAUUSD">
+    <None Include="XAUUSD.consumption.cs">
+      <DependentUpon>XAUUSD.mbconfig</DependentUpon>
+    </None>
+    <None Include="XAUUSD.training.cs">
+      <DependentUpon>XAUUSD.mbconfig</DependentUpon>
+    </None>
+    <None Include="XAUUSD.zip">
+      <DependentUpon>XAUUSD.mbconfig</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
 </Project>
